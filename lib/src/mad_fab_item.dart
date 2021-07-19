@@ -6,7 +6,7 @@ class MADFABItem {
 
   final double? elevation;
   final String? title;
-  final String? subttile;
+  final String? subtitle;
 
   final Color? backgroundColor;
   final Color? titleColor;
@@ -20,7 +20,7 @@ class MADFABItem {
     required this.child,
     required this.onTap,
     this.elevation = 0,
-    this.subttile,
+    this.subtitle,
     this.title,
   });
 }
