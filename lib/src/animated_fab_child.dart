@@ -50,7 +50,8 @@ class AnimatedMADFABChild extends AnimatedWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: child ?? Container(),
+                  // ignore: unnecessary_null_comparison
+                  child: child != null ? child: Container(),
                 ),
                 Expanded(
                   child: Padding(
