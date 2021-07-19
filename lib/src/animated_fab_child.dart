@@ -51,7 +51,7 @@ class AnimatedMADFABChild extends AnimatedWidget {
                 Padding(
                   padding: const EdgeInsets.all(10.0),
                   // ignore: unnecessary_null_comparison
-                  child: child != null ? child: Container(),
+                  child: child == null ? child: Container(),
                 ),
                 Expanded(
                   child: Padding(
